@@ -34,7 +34,7 @@ make gui_final
 ```
 This will launch the OpenROAD GUI showing your design layout.
 
-<img width="1222" height="768" alt="image" src="https://github.com/user-attachments/assets/4f746c1e-ca44-47fd-9361-274a3062c664" />
+<img width="1222" height="768" alt="image" src="https://github.com/user-attachments/assets/16a67f21-ce93-4f02-944d-51e9ce78cf53" />
 
 ### Step 2 
 
@@ -46,7 +46,7 @@ This will launch the OpenROAD GUI showing your design layout.
 
 This confirms: Core area & die dimensions generated.
 
-<img width="1222" height="768" alt="image" src="https://github.com/user-attachments/assets/16a67f21-ce93-4f02-944d-51e9ce78cf53" />
+<img width="1222" height="768" alt="image" src="https://github.com/user-attachments/assets/4f746c1e-ca44-47fd-9361-274a3062c664" />
 
 ### 2. placement view
 

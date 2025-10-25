@@ -19,10 +19,6 @@ openroad -help
 
 <img width="866" height="629" alt="image" src="https://github.com/user-attachments/assets/d4f84217-95d1-4724-b179-7dbc81393654" />
 
-<img width="806" height="651" alt="image" src="https://github.com/user-attachments/assets/e7432b27-5d94-4d87-b5f9-2f026f23c2e3" />
-
-<img width="1222" height="768" alt="image" src="https://github.com/user-attachments/assets/6febc00b-a3bc-4197-9b61-40fc5b666cbc" />
-
 <img width="806" height="651" alt="image" src="https://github.com/user-attachments/assets/7af65959-f286-4be6-aae7-424f8172d3cf" />
 
 
@@ -57,6 +53,23 @@ This confirms: Standard cells are placed successfully.
 
  <img width="1222" height="768" alt="image" src="https://github.com/user-attachments/assets/36c5aed1-69c4-48fc-92cb-42da0772cb62" />
 
+### Step 3— Review Logs
+
+we can check the logs to show evidence of floorplan and placement completion.
+
+Run these:
+
+```cd ~/OpenROAD-flow-scripts/flow/logs/nangate45/gcd/base
+ls
+```
+<img width="806" height="651" alt="image" src="https://github.com/user-attachments/assets/e7432b27-5d94-4d87-b5f9-2f026f23c2e3" />
+
+```
+cat 2_1_floorplan.log | tail -20
+cat 3_5_place_dp.log | tail -20
+```
+
+<img width="1222" height="768" alt="image" src="https://github.com/user-attachments/assets/6febc00b-a3bc-4197-9b61-40fc5b666cbc" />
 Then I executed the flow up to the Floorplan and Placement stages.
 The core area, die dimensions, and standard cell placement were successfully generated and visualized in the OpenROAD GUI.
 Minor setup adjustments were handled by ensuring env.sh was sourced correctly.

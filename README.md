@@ -1,5 +1,8 @@
 # RISC-V-SoC_tapeout-WEEK5
-
+[![RISC-V](https://img.shields.io/badge/RISC--V-Reference%20SoC-blue)](https://riscv.org/)
+[![RTL → GDSII](https://img.shields.io/badge/Flow-RTL%20%E2%86%92%20GDSII-purple)](https://en.wikipedia.org/wiki/GDSII)
+[![Tapeout Ready](https://img.shields.io/badge/Goal-Tapeout%20Ready-red)](https://en.wikipedia.org/wiki/Photomask)
+[![Made in India](https://img.shields.io/badge/Made%20in-India-green)](https://www.makeinindia.com/)
 
  **Objective:** Execute OpenROAD flow up to Floorplan and Placement stages only.
 
@@ -70,6 +73,9 @@ cat 3_5_place_dp.log | tail -20
 ```
 
 <img width="1222" height="768" alt="image" src="https://github.com/user-attachments/assets/6febc00b-a3bc-4197-9b61-40fc5b666cbc" />
-Then I executed the flow up to the Floorplan and Placement stages.
-The core area, die dimensions, and standard cell placement were successfully generated and visualized in the OpenROAD GUI.
-Minor setup adjustments were handled by ensuring env.sh was sourced correctly.
+
+- I executed the flow up to the Floorplan and Placement stages.
+
+- The core area, die dimensions, and standard cell placement were successfully generated and visualized in the OpenROAD GUI.
+  
+- Minor setup adjustments were handled by ensuring env.sh was sourced correctly.

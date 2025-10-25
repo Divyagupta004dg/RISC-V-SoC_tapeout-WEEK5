@@ -62,7 +62,8 @@ we can check the logs to show evidence of floorplan and placement completion.
 
 Run these:
 
-```cd ~/OpenROAD-flow-scripts/flow/logs/nangate45/gcd/base
+```
+cd ~/OpenROAD-flow-scripts/flow/logs/nangate45/gcd/base
 ls
 ```
 <img width="806" height="651" alt="image" src="https://github.com/user-attachments/assets/e7432b27-5d94-4d87-b5f9-2f026f23c2e3" />
